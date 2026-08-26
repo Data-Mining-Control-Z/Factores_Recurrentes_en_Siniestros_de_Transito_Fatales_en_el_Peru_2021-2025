@@ -1,1 +1,4 @@
 # Factores Recurrentes en Siniestros de Tránsito Fatales en el Perú 2021-2025
+
+En Perú sucedieron más de 80 000 accidentes de tránsito y fallecieron más de 3000 en el año 2024, lo que lo convierte en un riesgo importante para los ciudadanos peruanos. Sin embargo, los gobiernos no han podido disminuir significativamente los accidentes ni la cantidad de fallecidos.
+Debido a esto, el objetivo de este proyecto es describir los principales factores asociados a los siniestros de tránsito que ocurrieron desde 2021 hasta 2025 en los que hubo al menos 1 fallecido. Esta información podría ser de gran importancia para el desarrollo de medidas que ayuden a disminuir el número siniestros, por lo que sería especialmente útil para la División de Prevención e Investigación de Accidentes de Tránsito (DIVPIAT) de la Policía Nacional, el Ministerio de Transporte y Comunicaciones (MTC) y gobiernos locales.
