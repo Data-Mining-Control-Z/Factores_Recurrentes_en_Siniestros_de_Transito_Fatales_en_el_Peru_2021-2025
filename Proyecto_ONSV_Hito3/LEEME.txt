@@ -1,0 +1,25 @@
+ONSV — K-means por atributos + mapas espaciales (versión corregida)
+
+Abrir Clustering_KMeans_Espacial_ONSV_Hito3_Mapas_Corregidos.ipynb
+Ejecutar de arriba hacia abajo. El Excel y el contorno nacional ya están incluidos.
+
+Correcciones:
+- Los mapas Folium se muestran directamente en el notebook, sin IFrame de archivos relativos.
+- Marcadores interactivos optimizados sin quitar registros; exportación HTML conservada.
+- Mapas GeoJSON limitados a las columnas necesarias para evitar el error Timestamp.
+- Figuras estáticas a tamaño legible.
+- Los 4 grupos K-means, sus perfiles y la comparación DBSCAN se mantienen.
+
+Instalación básica:
+pip install pandas numpy matplotlib scikit-learn geopandas folium branca openpyxl shapely
+
+IMPORTANTE: los mapas departamentales y distritales requieren también los shapefiles originales
+peru_shapes/per_admbnda_adm1_ign_20200714.{shp,shx,dbf,prj}
+peru_shapes/per_admbnda_adm3_ign_20200714.{shp,shx,dbf,prj}
+
+Estos shapefiles no fueron proporcionados para empaquetar y NO se han reemplazado con datos simulados.
+Con esos archivos presentes se muestran los mapas administrativos; si no, se omiten esas celdas.
+
+La visualización en navegador de las capas de fondo de Folium necesita conexión a Internet.
+Si los mapas interactivos guardados no aparecen dentro del notebook, abrir los .html con navegador
+externo o marcar el notebook como de confianza (Trust Notebook) en Jupyter.
